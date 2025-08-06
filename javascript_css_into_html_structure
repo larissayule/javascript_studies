@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-BR>
+
+<head>
+<meta charset="UTF-8>
+<meta name="Viewport" content="width=device-width, inicial-scale=1.0">
+
+<title>Título da página</title>
+/<head>
+<body>
+<h1>Olá, usuários de Javascript!/<h1>
+
+<script> Em geral, use o arquivo script no final do body. Exceção: se você precisar exibir muito rapidmente um código Javascript, use no head. </script>
+/<body>
+/<html>
