@@ -1,0 +1,18 @@
+//**
+* Essa é uma forma de adicionar comentário no código que tem o diferencial de migrar diretamente para a documentação de seu código. Isso significa que você pode ler esse comentário sem propriamente abrir o código.
+* Começa o comentário com barra dupla e duplo asterisco, e cada linha susequente começa por um asterisco. No final, fecha com asterisco e barra simples.
+*
+* Exemplo usando @param, de parameter, @return e @example.
+*
+* @param {number} a - O número do qual dividir
+* @param {number} b - O número do qual ser dividido
+* @return {number} O resultado da divisão
+*
+* @example
+* //Exemplo de uso:
+* let resultado = dividir (10,5);
+* console.log(resultado); // 2
+*/
+function dividir (a,b) {
+  return a / b;
+}
