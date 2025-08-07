@@ -2,7 +2,7 @@ a/* Em Javascript, temos as variáveis, os operadores, as estruturas de controle
 As variáveis são partes que podem variar dentro de um código, e são usadas para armazenar dados. As mais utilizadas são var, let e const. A variável const é declarada apenas uma vez, ou seja, uma vez declarada, ela é imutável. Atualmente, o var não é considerado boa prática, mas vale a menção em especial quando
 nos deparamos com códigos mais antigos. O escopo do var varia sendo de função ou global, não observa bloco. O let é escopo de bloco, e o const é valor fixo, e por isso de escopo global.*/
 
-//Exemplo de uso de var, let e const
+// Exemplo de uso de var, let e const
 
 const externo = "Olá, pessoas maravilhosas. Aqui é constante global.";
 
@@ -23,7 +23,7 @@ function exemploLet(){
         let mensagem = "Olá, pessoas maravilhosas! Olha o let.";
         console.log(mensagem);
     }
-//Observe que aqui necessariamente o console.log de mensagem precisa estar no bloco, nesse caso na chave, para que seja lido, diferentemente do var.
+// Observe que aqui necessariamente o console.log de mensagem precisa estar no bloco, nesse caso na chave, para que seja lido, diferentemente do var.
 }
 
 
@@ -35,7 +35,7 @@ function exemploConstante() {
 // Chamando a função exemploConst
 exemploConstante();
 
-//Exemplo externo de const (aqui vai aparecer a mensagem da const externo, do início do código)
+// Exemplo externo de const (aqui vai aparecer a mensagem da const externo, do início do código)
 console.log(externo);
 
 /* Os operadores são aritméticos, de atribuição, de comparação, lógicos.
@@ -47,6 +47,97 @@ console.log("Você passou!");
 console.log("Vai precisar estudar mais!");
 }
 
-/*As funções são blocos de códigos reutilizáveis que realizam uma determinada tarefa.
-Objetos são entidades do mundo real e suas propriedades transcritas para o código; são estruturas que armazenam dados de chave-valor, em pares. Ao falarmos de objeto no Javascript, temos manipulação de DOM (Document Object Model),
+
+//As funções são blocos de códigos reutilizáveis que realizam uma determinada tarefa.
+
+function nome (parâmetro){
+// Bloco de código que será executado.
+}
+
+// Exemplo de chamada de função e retorno:
+let x = exemplo(2,5);
+function exemplo(a,b){
+    return a*b;
+}
+
+//Funções regulares são as funções definidas por function:
+function nomeDaFuncao(parametro1, parametro2){
+// bloco de código a ser executado
+return algumValor; // o retorno é opcional, mas é preciso passar o retorno para algum lugar, a exemplo de let ou console.log
+
+// Outros exemplos:
+function saudacao(nome){
+    console.log("Olá," + nome + "!");
+
+function mensagem() {
+    console.log("Esta é uma mensagem de boas vindas!");
+}
+// Chamando a função mensagem:
+mensagem();
+
+// Funções anônimas são aquelas que não possuem um nome diretamente associado a elas.
+let exemploDeFuncao = function(parametro1, parametro2){
+// bloco de código a ser executado
+}
+
+//Exemplo:
+let subtrairParametros = function(parametro1, parametro2){
+    console.log("Parâmetro 1:" + parametro1);
+    console.log("Parâmetro 2:" + parametro2);
+
+    let resultado = parametro1 - parametro2;
+    console.log("Resultado:" + resultado);
+    return resultado;
+}
+// Chamada da função anônima através da variável
+let resultado = subtrairParametros(10,5);
+console.log("Resultado da chamada de função subtrairParametros:" + resultado);
+
+// Definindo uma função que aceita outra função como argumento:
+function executarFuncao (funcao, valor1, valor2) {
+    console.log("Executando a função passada como argumento: ");
+    return funcao(valor1, valor2);
+}
+
+// Passando a função anônima como argumento para outra função:
+let resultadoExecucao = executarFuncao(subtrairParametros, 7, 4);
+console.log("Resultado da execução da função passada como argumento: " + resultadoExecucao);
+
+// Definindo e chamando uma função anônima imediatamente
+let resultadoImediato = (function(a,b){
+    console.log("Função de chamada imediata: ");
+    return a/b;
+})(6,3);
+console.log("Resultado da função anônima chamada imediatamente: " + resultadoImediato);
+
+// Funções arrow  são uma sintaxe moderna e mais concisa, principalmente para casos de uso simples e call-backs:
+let exemploDeFuncao = (parametro1, parametro2) -> {...}
+
+// Exemplo:
+let somar = (a,b) => {
+    return a + b;
+};
+// Comando a função e exibindo o resultado no console
+console.log(somar(5,4));
+
+// Exemplo de arrow function com um único parâmetro (não precisa de parênteses):
+let triplicar = n => n*3;
+// Chamando a função e exibindo o resultado no console:
+console.log(triplicar(8));
+
+// Exemplo de uma arrow function usada como callback
+let numeros = [1, 2, 3, 4, 5];
+let numerosTriplicados = numeros.map(n => n*3); // O map mapeia o que está na string.
+// Exibindo o array resultante no console:
+console.log(numerosTriplicados);
+
+// Arrow function com corpo de função mais complexo. Exemplo:
+let saudacao = () => {
+    let mensagem = `Olá, meu nome é ${nome} e eu tenho ${idade} anos.`;
+    return mensagem;
+};
+// Chamando a função e exibindo o resultado no console
+console.log(saudacao("Ana", 25));
+
+/* Objetos são entidades do mundo real e suas propriedades transcritas para o código; são estruturas que armazenam dados de chave-valor, em pares. Ao falarmos de objeto no Javascript, temos manipulação de DOM (Document Object Model),
 que é uma interface de programação que permite a interação do Javascript com a estrutura e o conteúdo da página web.*/
