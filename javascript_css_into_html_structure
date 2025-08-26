@@ -13,10 +13,18 @@ O documento index.html é o documento raiz do código, por convenção W3C, é o
 /<head>
 
 <body>
-<h1>Olá, usuários de Javascript! São usados títulos até o h6./<h1>
+
+<header>
+<h1>Olá, usuários de Javascript! São usados títulos até o h6.
+O h1 é título principal, e o header é a parte superior da página. /<h1>
+</header>
 
 
 <p>Para cada parágrafo.</p>
+
+<img src="enderecoDaImagem" alt= "Texto alterntivo para a imagem, caso a imagem não seja exibida ou esteja sendo usado recurso de acessibilidade de audiodescrição">
+
+<!-- Elementos são as tags, e atributos são detalhes que atribuímos aos elementos-->
 
 <!--Modelo de comentário. Alt Z para redimensionar a tela de visualização do código-->
 
