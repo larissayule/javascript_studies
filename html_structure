@@ -30,6 +30,8 @@ O h1 é título principal, e o header é a parte superior da página. /<h1>
 
 <!--Modelo de comentário. Alt Z para redimensionar a tela de visualização do código-->
 
+<footer> Rodapé da página. </footer>
+
 <script> Em geral, use o arquivo script no final do body. Exceção: se você precisar exibir muito rapidmente um código Javascript, use no head. </script>
 
 /<body>
