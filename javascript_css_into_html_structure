@@ -4,10 +4,10 @@
 O documento index.html é o documento raiz do código, por convenção W3C, é o primeiro documento que será buscado.-->
 
 <head>
-<!--No head vão os metadados. É a parte "invisível" da página para o usuário-->
+<!--No head vão os metadados. É a parte "invisível" da página para o usuário.-->
 <meta charset="UTF-8">
 <meta name="Viewport" content="width=device-width, inicial-scale=1.0">
-<!--Viewport para redimensionamento de página, ou seja, para site responsivo que se adapta a visualização em diferentes dispositivos.-->
+<!--Viewport para redimensionamento de página, ou seja, para site responsivo que se adapta a visualização em diferentes dispositivos e tamanhos de telas.-->
 
 <title>Título da página, aparece no navegador.</title>
 /<head>
@@ -23,6 +23,8 @@ O h1 é título principal, e o header é a parte superior da página. /<h1>
 <p>Para cada parágrafo.</p>
 
 <img src="enderecoDaImagem" alt= "Texto alterntivo para a imagem, caso a imagem não seja exibida ou esteja sendo usado recurso de acessibilidade de audiodescrição">
+
+<a href="endereço da web" target="_blank"></a>
 
 <!-- Elementos são as tags, e atributos são detalhes que atribuímos aos elementos-->
 
