@@ -2,8 +2,7 @@
 Seletor{
   Propriedade: valor;
 }
-Margin é espaço entre o box e a parte externa do box, ou seja, o restante da página; padding é espaço interno do box, entre conteúdo e borda. Para class, utiliza-se ponto (.).
-Há dois tipos principais de degradê: linear (linear gradient) e radial (radial gradient). No degradê linear há uma cor mais escura
+Há dois tipos principais de degradê ou gradiente: linear (linear gradient) e radial (radial gradient). No degradê linear há uma cor mais escura
 em um lado que vai clareando até o outro lado. NO radial, uma cor está no centro e vai se dissipando para as extremidades.*/
 
 body{
@@ -14,7 +13,7 @@ body{
   line-height:
 }
 
-.box{
+.box{ // Margin é espaço entre o box e a parte externa do box, ou seja, o restante da página; padding é espaço interno do box, entre conteúdo e borda. Para class, utiliza-se ponto (.).
   background-color:
   padding:
   margin:
@@ -52,3 +51,65 @@ da borda adicionados. Na soma, ficaria: 200 pixels (largura total) = conteúdo +
 .botao:hover{
   background-color:
 }
+
+.gradiente-linear{
+  background: linear-gradient(to right, cor1, cor2);
+  width:
+  padding:
+  margin: 20px auto
+  color:
+  text-align:
+  border-radius:
+}
+
+.gradiente-radial{
+  background: radial-gradient(circle, cor1, cor2);
+  width:
+  padding:
+  margin: 20px auto;
+  color:
+  text-align:
+  border-radius:
+}
+
+@keyframes mover-e-mudar-cor{
+  from{
+    background-color:
+    transform: translateX(0);
+  }
+  to{
+    background-color:
+    transform: translateX(100px);
+  }
+}
+
+.animacao{ // Animações são feitas a partir de @keyframes. Keyframes definem como os estilos de um elemento devem mudar.
+  width:
+  height:
+  background-color:
+  animation-name:
+  animation-duration:
+  animation-delay:
+  animation-timing-function:
+  animation-iteration-count:
+  animation-direction:
+}
+
+.caixa-de-transicao{
+  width:
+  height:
+  background-color:
+  color:
+  text-align:
+  line-height:
+  transition-property: background-color, transform;
+  transition-duration:
+  transition-timing-function:
+}
+
+.caixa-de-transicao:hover{
+  background-color:
+  transform: rotate(360deg);
+}
+
+
