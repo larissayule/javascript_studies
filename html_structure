@@ -2,7 +2,8 @@
 <html>
 <html lang="pt-BR">
 <!-- DOCTYPE é para identificação do tipo de documento. O atributo language p/ indicar a língua utilizada. Juntamente com o meta charset, é útil para que os caracteres sejam reconhecidos corretamente. 
-O documento index.html é o documento raiz do código, por convenção W3C, é o primeiro documento que será buscado.-->
+O documento index.html é o documento raiz do código, por convenção W3C, é o primeiro documento que será buscado. Elementos são as tags, e atributos são detalhes que atribuímos aos elementos. Exemplo, a é tag ou elemento, href (define o destino do link) e target (especifica como o link será aberto) são atributos.-->
+<!--Modelo de comentário. Alt Z para redimensionar a tela de visualização do código. Para atribuir classe, utiliza-se div. A div também pode ser utilizada para criar seções na página.-->
 
 <head>
 <!--No head vão os metadados. É a parte "invisível" da página para o usuário.-->
@@ -36,8 +37,13 @@ O h1 é título principal, e o header é a parte superior da página. /<h1>
 
 <button class="botao">Clique aqui!</button>
 
-<!-- Elementos são as tags, e atributos são detalhes que atribuímos aos elementos. Exemplo, a é tag ou elemento, href (define o destino do link) e target (especifica como o link será aberto) são atributos.-->
-<!--Modelo de comentário. Alt Z para redimensionar a tela de visualização do código. Para atribuir classe, utiliza-se div. A div também pode ser utilizada para criar seções na página.-->
+<div class="gradiente-linear"></div>
+
+<div class="gradiente-radial"></div>
+
+<div class="animacao"></div>
+
+<div class="caixa-de-transicao">Passe o mouse aqui!</div>
 
 <footer> Rodapé da página. </footer>
 
