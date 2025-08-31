@@ -2,7 +2,9 @@
 Seletor{
   Propriedade: valor;
 }
-Margin é espaço entre o box e a parte externa do box, ou seja, o restante da página; padding é espaço interno do box, entre conteúdo e borda. Para class, utiliza-se ponto (.).*/
+Margin é espaço entre o box e a parte externa do box, ou seja, o restante da página; padding é espaço interno do box, entre conteúdo e borda. Para class, utiliza-se ponto (.).
+Há dois tipos principais de degradê: linear (linear gradient) e radial (radial gradient). No degradê linear há uma cor mais escura
+em um lado que vai clareando até o outro lado. NO radial, uma cor está no centro e vai se dissipando para as extremidades.*/
 
 body{
   background-color:
