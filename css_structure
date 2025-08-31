@@ -2,7 +2,7 @@
 Seletor{
   Propriedade: valor;
 }
-Margin é espaço entre o box e a parte externa do box, ou seja, o restante da página; padding é espaço interno do box, entre conteúdo e borda. Para class, utiliza-se ponto (.).
+Margin é espaço entre o box e a parte externa do box, ou seja, o restante da página; padding é espaço interno do box, entre conteúdo e borda. Para class, utiliza-se ponto (.).*/
 
 body{
   background-color:
@@ -14,13 +14,27 @@ body{
 
 .box{
   background-color:
-  color:
   padding:
   margin:
+  max-width:
   border:
   border-radius:
+  box-shadow:
   text-align:
 }
+
+.caixa-de-conteudo{
+  box-sizing: content-box; // Exemplo de comentário de uma linha. Define o box-sizing como content box.
+}
+
+.caixa-de-borda{
+  box-sizing: border-box; // Define o box-sizing como border-box.
+}
+
+/* box-sizing: content-box e box-sizing: border-box diferem em como altura e largura de um elemento são calculados em relação ao conteúdo, ao padding e à borda. 
+Exemplo: Para uma largura de 200 pixels, adicionando 20 pixels de padding e 5 pixels de borda, o tatamnho total no content-box será 200 pixels (conteúdo) + 20 pixels (padding esquerdo) + 20 pixels (padding direito) +
+5 pixels (borda esquerda) + 5 pixels (borda direita) = 250 pixels. No border-box, a largura e a altura incluem o conteúdo, o padding e a borda, ou seja, o tamanho total do elemento (a caixa) não muda, independentemente do padding e 
+da borda adicionados. Na soma, ficaria: 200 pixels (largura total) = conteúdo + padding + borda.*/
 
 .botao{
   background-color:
