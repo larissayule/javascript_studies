@@ -32,7 +32,7 @@ O h1 é título principal, e o header é a parte superior da página. /<h1>
 
 <div class ="caixa-de-conteudo>Caixa 2</div>
 
-<div class="caixa-"></div>
+<div class="caixa-de-borda">Caixa 3</div>
 
 <button class="botao">Clique aqui!</button>
 
