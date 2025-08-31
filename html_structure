@@ -28,8 +28,10 @@ O h1 é título principal, e o header é a parte superior da página. /<h1>
 
 <a href="endereço da web" target="_blank">Nome do link</a>
 
+<div class="box">Caixa 1</div>
+
 <!-- Elementos são as tags, e atributos são detalhes que atribuímos aos elementos. Exemplo, a é tag ou elemento, href (define o destino do link) e target (especifica como o link será aberto) são atributos.-->
-<!--Modelo de comentário. Alt Z para redimensionar a tela de visualização do código-->
+<!--Modelo de comentário. Alt Z para redimensionar a tela de visualização do código. Para atribuir classe, utiliza-se div. A div também pode ser utilizada em outras situações.-->
 
 <footer> Rodapé da página. </footer>
 
