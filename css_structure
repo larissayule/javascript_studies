@@ -9,6 +9,7 @@ body{
   font-family;
   font-size;
   text-align;
+  line-height:
 }
 
 .box{
@@ -19,4 +20,19 @@ body{
   border:
   border-radius:
   text-align:
+}
+
+.botao{
+  background-color:
+  color:
+  padding:
+  margin:
+  border:
+  border-radius:
+  text-align:
+  cursor:
+}
+
+.botao:hover{
+  background-color:
 }
