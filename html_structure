@@ -30,6 +30,10 @@ O h1 é título principal, e o header é a parte superior da página. /<h1>
 
 <div class="box">Caixa 1</div>
 
+<div class ="caixa-de-conteudo>Caixa 2</div>
+
+<div class="caixa-"></div>
+
 <button class="botao">Clique aqui!</button>
 
 <!-- Elementos são as tags, e atributos são detalhes que atribuímos aos elementos. Exemplo, a é tag ou elemento, href (define o destino do link) e target (especifica como o link será aberto) são atributos.-->
