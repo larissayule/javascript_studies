@@ -1,1 +1,22 @@
+/* Exemplo de comentário. Estrutura básica de CSS. Observações: o CSS trabalha com seletor, propriedade e valor:
+Seletor{
+  Propriedade: valor;
+}
+Margin é espaço entre o box e a parte externa do box, ou seja, o restante da página; padding é espaço interno do box, entre conteúdo e borda. Para class, utiliza-se ponto (.).
 
+body{
+  background-color:
+  font-family;
+  font-size;
+  text-align;
+}
+
+.box{
+  background-color:
+  color:
+  padding:
+  margin:
+  border:
+  border-radius:
+  text-align:
+}
