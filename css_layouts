@@ -1,3 +1,5 @@
+//Lembre-se de que para cada seletor classe no CSS há um <div class="nome-da-classe"></div> no HTML.
+
 .exemplo-de-grid-layout{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -42,5 +44,28 @@
   border-radius:
 }
 
-.container-centralizado{
+/* Para layout centralizado, no HTML criam-se 2 classes, por exemplo: 
+<div class="centered-container"></div> Para centralizar o conteúdo.
+  <div class="content"></div> Dentro dessa div há o conteúdo (body).
+    <h1>...
+      <p>... */
+
+body{
+  height:
+  margin:
+  display:
+  align-itens:
+  justify-content:
+  font-family:
+  background-color:
+}
+
+.centered-container{
+  display:
+  align-items:
+  justify-content:
+  width:
+  height:
+  background-color:
+  box-shadow:
 }
