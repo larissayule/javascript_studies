@@ -23,6 +23,7 @@ O documento index.html é o documento raiz do código, por convenção W3C, é o
 O h1 é título principal, e o header é a parte superior da página. /<h1>
 </header>
 
+<main>
 
 <p>Para cada parágrafo.</p>
 
@@ -39,6 +40,10 @@ O h1 é título principal, e o header é a parte superior da página. /<h1>
 <button class="botao">Clique aqui!</button>
 
 <div class="gradiente-linear"></div>
+
+</main>
+
+<footer></footer>
 
 <div class="gradiente-radial"></div>
 
