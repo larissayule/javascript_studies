@@ -112,51 +112,6 @@ da borda adicionados. Na soma, ficaria: 200 pixels (largura total) = conteúdo +
   transform: rotate(360deg);
 }
 
-.exemplo-de-grid-layout{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10 px;
-}
 
-.grid-item{
-  background-color:
-  color:
-  padding:
-  text-align:
-  border-radius:
-}
-
-.exemplo-de-flexbox-layout{
-  display: flex;
-  justify-content: space-between;
-  gap: 10 px;
-}
-
-.flexbox-item{
-  background-color:
-  color:
-  padding:
-  text-align:
-  flex: 1; //Permite que os itens do flexbox se dimensionem igualmente dentro do container.
-  border-radius:
-}
-
-.exemplo-de-float-layout{
-  overflow: hidden;
-}
-
-.float-item{
-  width:
-  margin:
-  background-color:
-  color:
-  padding:
-  text-align:
-  float:
-  border-radius:
-}
-
-.container-centralizado{
-}
 
 
