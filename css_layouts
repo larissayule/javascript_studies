@@ -69,3 +69,67 @@ body{
   background-color:
   box-shadow:
 }
+
+// Para layout fixo:
+
+body{
+  font-family:
+  margin: 0;
+  padding:
+  background-color:
+  display:
+  flex-direction:
+  align-itens:
+}
+
+header,
+footer{
+  width:
+  background-color:
+  color:
+  text-align:
+  padding:
+}
+
+main{
+  flex: 1; // Usa o modelo de layout flexbox para o conteúdo principal.
+  display: flex; // Centraliza os itens no eixo transversal (vertical).
+  align-itens: // Centraliza os itens no eixo principal (horizontal).
+  justify-content: center;
+  width: 100%;
+}
+
+.fixed-container{
+  width:
+  background-color:
+  padding:
+  box-shadow:
+  border-radius:
+  text-align:
+}
+
+// Para layout elástico:
+
+body{
+  font-family:
+  margin:
+  padding:
+  background-color:
+  display:
+  flex-direction: column;
+  align-items: center;
+}
+
+main{
+...
+}
+
+.elastic-container{
+  width: 80%;
+  max-width: 800px;
+  background-color:
+  padding: 20px;
+  box-shadow: o o 10px color;
+  border-radius: 8px;
+  text-align: center;
+}
