@@ -45,6 +45,21 @@ O h1 é título principal, e o header é a parte superior da página. /<h1>
 
 <div class="caixa-de-transicao">Passe o mouse aqui!</div>
 
+<div class="exemplo-de-grid-layout">Grid</div>
+
+<div class="grid-item"></div>
+
+<div class="exemplo-de-flexbox-layout">Flexbox</div>
+
+<div class="flexbox-item"></div>
+
+<div class="exemplo-de-float-layout">Float</div>
+
+<div class="float-item"></div>
+
+// para layout centralizado:
+<div class="container-centralizado"=></div>
+
 <footer> Rodapé da página. </footer>
 
 <script> Em geral, use o arquivo script no final do body. Exceção: se você precisar exibir muito rapidmente um código Javascript, use no head. </script>
