@@ -108,7 +108,7 @@ main{
   text-align:
 }
 
-// Para layout elástico:
+// Para layout elástico, são utilizadas unidades relativas como em ou rem para responsividade no tamanho da fonte ou no zoom, e display flex para que os elementos possam se ajustar dinamicamente:
 
 body{
   font-family:
