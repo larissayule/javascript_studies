@@ -5,11 +5,41 @@ que se quer o módulo é 7 mod 3, por exemplo. O ** representa o exponencial, o 
 o incremento e o -- o decremento.*/
 
 // Função que simula calculadora:
-function calculadora(num1, num2){
+function calculadora(num1, num2){ // Inserir os números aqui. Se não informar, O JS vai substituir num1 e num2 por undifined e o resultado será NaN.
+
+let adicao = num1 + num2;
+let subtracao = num1 - num2;
+let multiplicacao = num1 * num2;
+let divisao = num1 / num2;
+let modulo = num1 % num2;
+let exponencial = num1 ** num2;
+
+// Incrementar: 
+let incrementar = num1;
+incrementar ++; // Aqui ele vai pegar o valor inicial e incrementar 1. Importante para ter o controle do valor inicial.
+
+
+// É diferente de:
+let incrementar = num1 ++; // Aqui ele irá substituir o número inicial pelo número acrescido do incremento.
+
+
   console.log(ˋAdição (${num1} + ${num2}) = ${adicao}ˋ);
   console.log(ˋSubtração (${num1} - ${num2}) = ${subtracao}ˋ);
   console.log(ˋMultiplicação (${num1}*${num2}) = ${multiplicacao}ˋ);
   console.log(ˋDivisão (${num1} / ${num2}) = ${divisao}ˋ);
   console.log(ˋMódulo (${num1} % ${num2}) = ${modulo}ˋ);
-  console.log
+  console.log(ˋExponencial ($({num1}** ${num2}) = ${exponencial}ˋ);
+  console.log(ˋIncrementar (${num1})++ = ${incrementar}ˋ);
+  console.log(ˋDecrementar (${num2})-- = ${decrementar}ˋ);
 }
+
+/* Operadores lógicos: operam em valores booleanos, ou seja, vinculados à tabela verdade. && (e), || (ou), ! (não).
+Os operadores de comparação são == (igual a), != diferente de, === (mesmo tipo e mesmo valor), 
+!== (diferente em valor e tipo), < (menor que), > (maior que), <= (menor ou igual a),
+>= (maior ou igual a). Lembre-se: em tabela verdade considerando a e b, o resultado é true somente se a e b forem true.*/
+
+// Operador E:
+const a = true;
+const b = false;
+
+const resultadoE1 = a $$ b; //false
