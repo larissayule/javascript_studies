@@ -88,6 +88,34 @@ switch (condicao) {
 }
 
 
+// Laços e repetições (loops):
+
+for(let destino = 1; destino <= 10; destino ++) {
+  console.log("Parada em: " destino);
+}
+
+let polichinelos = 0;
+let exaustao = false;
+while (exaustao) {
+  exaustao ++;
+  console.log("Consegui fazer " polichinelos);
+  if (polichinelos === 100){
+  exaustao = true;
+  }
+}
+
+let giroDePeao = 0;
+let caiu = false;
+do{
+  giroDePeao +++;
+  console.log("O peão girou por " giroDePeao "minutos");
+  if (giroDePeao === 2){
+  caiu = true;
+  }
+} while (caiu && giroDePeao < 3);
+
+
+
 
 
 
