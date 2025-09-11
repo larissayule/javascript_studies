@@ -107,12 +107,16 @@ while (exaustao) {
 let giroDePeao = 0;
 let caiu = false;
 do{
-  giroDePeao +++;
-  console.log("O peão girou por " giroDePeao "minutos");
+  giroDePeao ++;
+  console.log("O peão girou por", giroDePeao, "minutos"); 
   if (giroDePeao === 2){
   caiu = true;
   }
 } while (caiu && giroDePeao < 3);
+
+/* As vírgulas concatenam automaticamente acrescentando espaço entre elementos. 
+Também podem ser usados os sinais de +, mas para acrescentar espaço é necessário acrescentá-los dentro das aspas. 
+Uma terceira forma é ˋValor ${x} unidadesˋ .*/
 
 
 
