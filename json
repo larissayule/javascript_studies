@@ -43,7 +43,7 @@ console.log(pessoa);
 // Para remover dados:
 delete pessoa.telefones;
 
-
+// JavaScript possui uma função integrada para converter strings JSON em objetos JavaScript: JSON.parse() e possui uma função integrada para converter um objeto em uma string JSON: JSON.stringify().
 
 
 
