@@ -1,0 +1,55 @@
+// Json (JavaScript Object Notation) pode ser usado na maioria das linguagens de programação; trata-se de um formato de dados de chave-valor. Json no HTML:
+
+<script>
+  const jsonObject = {"name": "John", "age": 30, "city": "New York"};
+  document.body.innerHTML += JSON.stringigy(jsonObject);
+</script>
+
+<pre id="json"></pre>
+<script>
+  const jsonObject = {"name": "John", "age": 30, "city": "New York"};
+  const formattedJson = JSON.stringify(jsonObject, null, 4); //o terceiro valor (4) é um espaço
+  document.getElementById("json").textContent = formattedJson;
+</script>
+
+// Json no JS:
+let pessoa = {
+  "nome": "Larissa",
+  "idade:" 37,
+  "endereco": {
+    "rua": "Rua X",
+    "numero": 123
+    },
+  "telefones": ["1234-5678", "5555-4444"]
+};
+
+console.log(pessoa);
+
+// Para acessar os dados:
+console.log(pessoa.nome);
+console.log(pessoa["idade"]);
+console.log(pessoa.endereco.rua);
+console.log(pessoa["telefones"][0]);
+console.log(pessoa["telefones"][1];
+
+// Para adicionar dados:
+pessoa.email = "email@email";
+console.log(pessoa);
+
+// Para modificar dados: 
+pessoa.idade = 47;
+console.log(pessoa);
+
+// Para remover dados:
+delete pessoa.telefones;
+
+
+
+
+
+
+
+
+
+
+
