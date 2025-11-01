@@ -1,7 +1,7 @@
 /* Operadores são símbolos ou palavras-cahaves que possibilitam operações 
 como comparações, atribuições e cálculos.
 % representa o módulo, que é o mesmo que resto da divisão. Uma forma comum de falar
-que se quer o módulo é 7 mod 3, por exemplo. O ** representa o exponencial, o **
+que se quer o módulo é 7 mod 3, por exemplo. A \ é divisão exata, ou seja, despreza a parte fracionária. O <> representa o diferente de, o ** representa o exponencial, o ++
 o incremento e o -- o decremento.*/
 
 // Função que simula calculadora:
