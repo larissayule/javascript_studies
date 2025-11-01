@@ -1,0 +1,20 @@
+/* Métodos básicos de arrays: push para adicionar ao final da lista, unshift para adicional ao início da lista, pop para remover o último elemento (direito), shift para remover o primeiro elemento (esquerdo),
+splice para alterar o conteúdo da array na posição indicada, slice para dividir a array preservando os elementos, concat para juntar arrays. Filter, map e reduce percorrem o array e realizam uma ação:
+filter criam um novo array somente com os elementos que atendam às condições determinadas, o map cria um novo array com uma função aplicada a cada elemento, reduce realiza operações específicas em cada elemento.
+Para criar uma array, utiliza-se new Array() ou colchetes [].*/
+
+
+let estoque = [“arroz”, “feijão”, “farofa”];
+console.log(estoque); // [“arroz”, “feijão”, “farofa”]
+
+estoque.push(“queijo”);
+console.log(estoque); // [“arroz”, “feijão”, “farofa”, "queijo"]
+
+estoque.pop();
+console.log(estoque); // [“arroz”, “feijão”, “farofa”]
+
+estoque.splice(1,1, "lentilha");
+console.log(estoque); // [“arroz”, “lentilha”, “farofa”]
+
+let estoqueDividido = estoque.slice(1,2);
+console.log(estoqueDividido); //["lentilha"; "farofa"];
