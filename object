@@ -1,5 +1,5 @@
 /* Programação orientada a objetos tem por objetivo refletir o mundo real no código. Objetos pertencem a classes, e por isso dizemos que os objetos são instâncias da classe. Abstração é simplificar o mundo real para o código. 
-Polimorfismo é a capacidade de uma classe ter tratamento de sua classe herdada. */
+No polimorfismo, objetos de classes diferentes são tratados de maneira uniforme através de uma interface em comum. */
 
 
 class imovel{    // Exemplo de classe imóvel: a simplificação aqui reside em citar apenas duas das propriedades do imóvel.
