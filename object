@@ -1,6 +1,8 @@
-// Abstração é simplificar o mundo real para o código. Polimorfismo é a capacidade de uma classe ter tratamento de sua classe herdada.
+/* Programação orientada a objetos tem por objetivo refletir o mundo real no código. Objetos pertencem a classes, e por isso dizemos que os objetos são instâncias da classe. Abstração é simplificar o mundo real para o código. 
+Polimorfismo é a capacidade de uma classe ter tratamento de sua classe herdada. */
 
-class imovel{    // A simplificação aqui reside em citar apenas duas das propriedades do imóvel.
+
+class imovel{    // Exemplo de classe imóvel: a simplificação aqui reside em citar apenas duas das propriedades do imóvel.
   constructor(local, metragem){
     this.local = local;
     this.metragem = metragem;
@@ -13,7 +15,7 @@ descrever(){
 // Classe "casa" herda de "imovel"
 class casa extends Imovel {
   constructor (local, metragem, deAndar, temQuintal){
-    super(loval, metragem);
+    super(local, metragem); // O super é o que queremos herdar da classe macro.
     this.deAndar = deAndar;
     this.temQuintal temQuintal;
   }
