@@ -1,0 +1,30 @@
+// Abstração é simplificar o mundo real para o código. Polimorfismo é a capacidade de uma classe ter tratamento de sua classe herdada.
+
+class imovel{    // A simplificação aqui reside em citar apenas duas das propriedades do imóvel.
+  constructor(local, metragem){
+    this.local = local;
+    this.metragem = metragem;
+}
+// Método abstrato para descrever o imóvel (replicar nas subclasses):
+descrever(){
+}
+}
+
+// Classe "casa" herda de "imovel"
+class casa extends Imovel {
+  constructor (local, metragem, deAndar, temQuintal){
+    super(loval, metragem);
+    this.deAndar = deAndar;
+    this.temQuintal temQuintal;
+  }
+
+// Implementando descrever:
+descrever(){
+  let descricao = `Casa localizada em ${this.local}, ${this.metragem} metros quadrados, ${temQuintal};
+
+  // Operador ternário equivale a if/else:
+  descricao += this.temQuintal ? " e possui quintal." : "e não possui quintal.";
+
+  return descricao;
+  }
+}
