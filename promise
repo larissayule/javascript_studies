@@ -1,0 +1,12 @@
+let Promessa = new Promise((resolve, reject) => {
+    let deuCerto = true;
+    if(deuCerto){
+        resolve("Deu Certo!");
+    } else {
+        reject("Deu ruim!");
+    }
+});
+
+Promessa.then(result => {console.log(result);}) 
+.catch(error => {console.error(error);})
+.finally(() => {console.log("Concluído!");});
