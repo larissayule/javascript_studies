@@ -1,0 +1,7 @@
+getElementById()
+getElementByClassName()
+getElementByTagName()
+getElementByName()
+
+document.createElement(); //Para criar um novo elemento no DOM.
+document.body.appendChild(); //Para adicionar documento DOM. O DOM permite organizar os elementos em estrutura de árvore.
