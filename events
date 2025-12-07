@@ -1,0 +1,85 @@
+/*Eventos de mouse:
+click: quando há o clique no elemnto
+mouseover: o ponteiro do mouse se move sobre um elemento
+mouseout: o ponteiro do mouse sai de cima de um elemento
+mousedown: botão do mouse é pressionado sobre um elemento
+mouseup: botão do mouse é liberado após ser pressionado
+Sugestão: cria uma seção de evento e estiliza a seção no CSS. Cria também o link de navegação do evento.*/
+
+#eventoSection{
+  padding: 1em;
+  border: 1px solid color;
+}
+
+<section id="evento">
+<h2>Evento</h2>
+<div id="eventoBotao">
+  <button id="cliqueBotao" class= "botaoA">Clique aqui</button>
+</section>
+
+<a href= "#evento" class="text-white"> Evento </a> // O href é do id da seção.
+
+//Navegação no DOM:
+const secondSection = document.querySelector('footer');
+footerElement.remove();
+
+const clickButton = document.getElementById('botaoA');
+clickButton.addEventListener('click', function(){
+  alert('Sua mensagem');
+});
+
+//Mouseover e mouseout:
+const mouseOverOutDiv = document.getElementById('mouseOverOutDiv');
+mouseOverOutDiv.addEventListener('mouseover', function (){
+  mouseOverOutDiv.style.backgroundColor = color;
+});
+
+mouseOverOutDiv.addEventListener('mouseout', function(){
+  mouseOverOutDiv.style.backgorundColor = color;
+});
+
+//Dica: renomeie botao/button, para melhor manutenção de código.
+
+
+/* Eventos de teclado:
+keydown: quando a tecla do teclado é pressionada
+keyup: quando a tecla do teclado é liberada após ser pressionada
+keypress: quando uma tecla do teclado que produz um caractere é pressionada*/
+
+<input type="text id="keyInput" class="controle1" placeholder="Pressione uma tecla">
+
+//Eventos de teclado:
+const keyInput = document.getElementById('keyInput');
+keyInput.addEventListener('keydown', function(event){
+  console.log('Tecla pressionada:', event.key);
+});
+
+keyInput.addEventListener('keyup', function(event){
+  console.log('Tecla liberada:', event.key);
+});
+
+keyInput.addEventListener('keypress', function(event){
+  console.log('Teclando', event.key);
+});
+}
+
+
+/* Eventos de botão:
+submit: acionado quando um formulário é enviado
+click: quando um botão de formulário é clicado
+reset: quando um botão de redefinição é clicado
+*/
+
+//Manipulação de Eventos
+const submitButton = document.querySelector('button[type="sbmit"]');
+submitButton.addEventListener('click', function(event){
+  event.preventDefault();
+  alert('Formulário enviado!');
+});
+
+//Navegação no DOM
+const secondSection = document.querySelectorAll('section');
+const nextSection = secondSection.nextElementSibling;
+if (nextSection){
+  nextSection.style.border = '3px dashed color;
+}
