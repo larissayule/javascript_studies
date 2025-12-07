@@ -83,3 +83,59 @@ const nextSection = secondSection.nextElementSibling;
 if (nextSection){
   nextSection.style.border = '3px dashed color;
 }
+
+<section id="formulario">
+  <h2>Formulário</h2>
+  <form name="contatoFormulario">
+    <div class="formGrupo">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" class="formControl">
+  </div>
+  <div class= "formGrupo">
+  <label for="email">Email:</label>
+  <input type="email" id="email" class="formControl" name="email">
+  </div>
+  <button type="submit" class="botalPrimario">Enviar</button>
+  <button type="reset" class="botaoSecundario>Redefinir</button>
+</form>
+</section>
+
+//Eventos de envio de formulário (submit):
+const contatoForm = document.forms['contatoForm'];
+contatoForm.addEventListener('submit', function(event){
+  event.preventDefault();
+  alert('Formulário enviado com sucesso!');
+});
+
+//Evento de clique em botão (click)
+const clickExampleButton = document.getElementById('clickButton');
+clickExampleButton.addEventListener('click', function(){
+  alert('Botão de clique acionado!');
+});
+
+//Eventos de redefinição de formulário (reset)
+const resetButton = documento.querySelector('button[type="reset"]');
+resetButton.addEventListener('click', function(){
+  alert('Formulário redefinido');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
