@@ -120,6 +120,34 @@ resetButton.addEventListener('click', function(){
 });
 
 
+/*Eventos gerais de foco:
+focus: acionado quando um elemento recebe foco
+blur: acionado quando um elemento perde o foco.*/
+
+<input type="text" id="focusBlurInput" class="form-control" placeholder="Clique aui e depois saia">
+
+//Evento de foco:
+const focusBlurInput = document.getElementById('focusBlurInput');
+focusBlurInput.addEventListener('focus', function()
+);
+focusBlurInput.addEventListener('blur', function()
+);
+
+
+/*Eventos gerais de tempo:
+setTimeout: aciona uma função após um certo tempo decorrido.
+setInterval: aciona repetidamente uma função em intervalos especificados.*/
+
+//Eventos de tempo:
+setTimeout(function(){
+  alert('Este alerta aparece após 3 segundos!');
+}, 3000);
+
+setInterval(function(){
+  console.log('Este log aparece a cada 5 segundos');
+}, 5000);
+
+
 
 
 
