@@ -18,7 +18,7 @@ body{
   width: 80%; //Largura do contêiner como 80% da largura da janela.
 }
 
-.border-example{
+.alignment-example{
   background-color:
   padding: 20px; //Preenchimento interno de 20 pixels ao contêiner;
   text-align: //Centraliza o texto dentro do contêiner.
