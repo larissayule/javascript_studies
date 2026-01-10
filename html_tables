@@ -1,0 +1,20 @@
+//thread: cabeçalho; tbody: corpo; tfoot: rodapé
+
+<table>
+  <thead>
+    <tr> //cria a linha
+      <th></th> //nome dos itens
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td> //valores dos itens
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>    
+  </tfoot>
+</table>
