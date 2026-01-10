@@ -1,0 +1,2 @@
+//Para adicionar fontes que não estão no CSS: 
+@import url('endereço da fonte');
