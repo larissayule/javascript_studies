@@ -18,3 +18,47 @@
     </tr>    
   </tfoot>
 </table>
+
+/*Atributos: usados em HTML para defnir características dos elementos. São escritos diretamente na tag.
+Atributos de <table>: border, colspan (uma célula se estende por várias colunas), rowspan (uma célula se estende por várias linhas). Exemplo de tabela:*/
+
+<table class = "tabela-exemplo" border = "1" cellpadding = "10" cellspacing = "5">
+  <tr>
+    <th colspan = "2"> Lista de funcionários </th>
+  </tr>
+  <tr>
+    <th> Nome </th>
+    <th> Matrícula </th>
+  </tr>
+  <tr>
+    <td> Ana </td>
+    <td> 1111 </td>
+  </tr>
+  <tr>
+    <td> Carla </td>
+    <td> 1112 </td>
+  </tr>
+</table>
+
+.tabela-exemplo{
+  width: 70%;
+  height: 200px;
+  margin: 0 auto;
+  border-spacing: 5px;
+}
+
+.tabela-exemplo th, .tabela-exemplo td {
+  padding: 10px;
+  border: 1px solid color;
+  text-align: center;
+}
+
+
+
+
+
+  
+
+
+
+
