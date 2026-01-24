@@ -1,0 +1,19 @@
+/*Input: entrada de dados; serve para criar vários tipos de campos onde os usuários podem inserir informações.
+Textarea: entrada de dados; usado para criar campos de entrada de texto multilinha.
+Combobox:
+FieldSet:
+Label: define rótulos para elementos input. for: o atributo conecta o rótulo ao elemento input correspondente.
+Hidden: Exemplo de formulário: */
+
+<form>
+  <label for = "nome"> Nome: </label>  
+  <input type = "text" id = "nome" name = "nome" placeholder "Digite seu nome">
+
+  <label for = "email"> Email: </label>
+  <input type = "email" id = "email placeholder = "Digite seu email">
+
+  <label for = "mensagem"> Mensagem: </label>
+  <textarea id = "mensagem" name = "mensagem" rows = "4" placeholder = "Digite sua mensagem"></textarea>
+
+  <button type = "submit"> Enviar </button>
+</form>
