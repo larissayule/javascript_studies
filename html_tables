@@ -20,7 +20,8 @@
 </table>
 
 /*Atributos: usados em HTML para defnir características dos elementos. São escritos diretamente na tag.
-Atributos de <table>: border, colspan (uma célula se estende por várias colunas), rowspan (uma célula se estende por várias linhas). Exemplo de tabela:*/
+Atributos de <table>: border, colspan (uma célula se estende por várias colunas), rowspan (uma célula se estende por várias linhas), cellspacing (controla o espaço entre as células). 
+Pseudoelementos :before e :after adicionam bordas personalizadas ou elementos visuais adicionais antes ou depois da tabela. Exemplo de tabela:*/
 
 <table class = "tabela-exemplo" border = "1" cellpadding = "10" cellspacing = "5">
   <tr>
