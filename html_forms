@@ -3,7 +3,8 @@ Textarea: entrada de dados; usado para criar campos de entrada de texto multilin
 Combobox: entrada de dados; combina caixa de texto com lista de oopções. Tag <select> para criação do combobox, e dentro dela a tag <option> para listar opções.
 FieldSet: agrupa vários elementos de um formulário em uma seção com borda ao redor, ajudando a organizar as informações. Tag <fieldset>, e para adicionar título ou legenda, usa-se <legend>.
 Label: define rótulos para elementos input; etiqueta que descreve um campo de um formulário. for: o atributo conecta o rótulo ao elemento input correspondente.
-Hidden: Tag não visível ao usuário, usado para enviar informações que o usuário não precisa ver o editar. Usa-se a tag <input> com o atributo type = "hidden". Exemplo de formulário1: */
+Hidden: Tag não visível ao usuário, usado para enviar informações que o usuário não precisa ver o editar. Usa-se a tag <input> com o atributo type = "hidden". 
+Atributo placeholder: serve para mostrar um texto de dica que aparece dentro do campo antes da digitação por parte do usuário. Exemplo de formulário1: */
 
 <body>
   <h1>Formulário de Contato</h1>
@@ -149,164 +150,31 @@ input[type = "text"], select{
 
 </form>
 
-
-// Botões:
-
-<div class = "container">
-
-  <h1> Exemplo de tipos de botões </h1>
-  <div class = "button-group">
-    <button class = "btn"> Botão Padrão </button>
-    <button class = "btn btn-primary"> Botão Primário </button>
-    <button class = "btn btn-sucess"> Botão de Sucesso </button>
-    <button class = "btn btn-warning"> Botão de Aviso </button>
-    <button class = "btn btn-danger"> Botão de Perigo </button>
-    <button class = "btn btn-disabled" disabled> Botão desabilitado </button>
-    <button class = "btn btn-icon"><span class = "icon"> o ícone </span> Botão com ícone </button>
-  </div>
-</div>
-
-body {
-  font-family:;
-  margin: 0;
-  padding: 20px;
-  background-color:;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-.container{
-  text-align:;
-  background-color:;
-  padding: 25px;
-  border-radius: 7px;
-  box-shadow: 0 0 12px color;
-}
-
-h1{
-  margin-bottom: 20px;
-}
-
-.button-group{ // Estilização do grupo de botões
-  display: flex;
-  flex-wrap: wrap; //Permite que os botões quebrem linha.
-  gap: 10px;
-  justify-content:;
-}
-
-.btn{ // Estilização dos botões
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  font-size: 15px;
-  cursor: pointer;
-  transition: background-color: 0.3s;
-}
-
-.btn{ // Botão padrão
-  background-color:;
-  color:;
-}
-
-.btn :hover{
-  background-color:
-}
-
-.btn-primary{
-  background-color:;
-  color:;
-}
-
-.btn-primary :hover{
-  background-color:;
-}
-
-.btn-sucess{
-  background-color:;
-  color:;
-}
-
-.btn-sucess :hover{
-  background-color:;
-}
-
-.btn-warning{
-  background-color:;
-  color:;
-}
-
-.btn-warning :hover{
-  background-color:;
-}
-
-.btn-danger :hover{
-  background-color:;
-  color:;
-}
-
-.btn-disabled{
-  background-color:;
-  color:;
-  cursor: not-allowed;
-}
-
-.btn-icon{
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.btn-icon .icon{
-  font-size: 20px;
-}
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Método get: usado para enviar dados do formulário anexando-os à URL da página; utiliza-se para que os dados enviados possam ser vistos na barra de endereço. 
+Quando se está fazendo uma busca e se quer compartilhar o link com os resultados.
+Método post: é usado para enviar dados do formulário sem ficar visível na URL. Para envio de informações sensíveis.
+
+<form method = "GET" action = "/pagina-de-destino-get">
+  <h2> Método GET </h2>
+  <label for = "nome-get> Nome: </label>
+  <input type = "text" id = "nome-get" name = "nome" placeholder = "Digite seu nome">
+  <button type = "submit"> Enviar (GET) </button>
+</form>
+
+<form method = "POST" action = "/pagina-de-destino-post">
+  <h2> Método POST </h2>
+  <label for = "nome-post"> Nome: </label>
+  <input type = "text" id = "nome-post" name = "nome" placeholder = "Digite seu nome">
+  <button type = "submit"> Enviar (POST) </button>
+
+
+// Mensagem de erro em HTML (mas geralmente é feito em JS):
+
+<form>
+  <label for = "nome"> Nome: </label>
+  <input type = "text" id = "nome" name = "nome" placeholder = "Digite seu nome" required>
+  <span class = "error-message"> Por favor, insira seu nome. </span>
+</form>
 
 
 
