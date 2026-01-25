@@ -36,7 +36,8 @@ body{
 }
 
 
-// Scale:
+/* Scale: O efeito “scale” funciona aumentando ou diminuindo as dimensões de um elemento, sem alterar sua forma original. Por exemplo, para dobrar o tamanho de um elemento, usamos 
+‘transform: scale(2);’. Da mesma forma, se quisermos reduzir o tamanho para metade, podemos utilizar ‘transform: scale(0.5);’.*/
 
 <div class = "container">
   <h1> Exemplo do Efeito Scale </h1>
