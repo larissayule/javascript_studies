@@ -1,1 +1,114 @@
-,
+// Botões:
+
+<div class = "container">
+
+  <h1> Exemplo de tipos de botões </h1>
+  <div class = "button-group">
+    <button class = "btn"> Botão Padrão </button>
+    <button class = "btn btn-primary"> Botão Primário </button>
+    <button class = "btn btn-sucess"> Botão de Sucesso </button>
+    <button class = "btn btn-warning"> Botão de Aviso </button>
+    <button class = "btn btn-danger"> Botão de Perigo </button>
+    <button class = "btn btn-disabled" disabled> Botão desabilitado </button>
+    <button class = "btn btn-icon"><span class = "icon"> o ícone </span> Botão com ícone </button>
+  </div>
+</div>
+
+body {
+  font-family:;
+  margin: 0;
+  padding: 20px;
+  background-color:;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  text-align:;
+  background-color:;
+  padding: 25px;
+  border-radius: 7px;
+  box-shadow: 0 0 12px color;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+.button-group{ // Estilização do grupo de botões
+  display: flex;
+  flex-wrap: wrap; //Permite que os botões quebrem linha.
+  gap: 10px;
+  justify-content:;
+}
+
+.btn{ // Estilização dos botões
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color: 0.3s;
+}
+
+.btn{ // Botão padrão
+  background-color:;
+  color:;
+}
+
+.btn :hover{
+  background-color:
+}
+
+.btn-primary{
+  background-color:;
+  color:;
+}
+
+.btn-primary :hover{
+  background-color:;
+}
+
+.btn-sucess{
+  background-color:;
+  color:;
+}
+
+.btn-sucess :hover{
+  background-color:;
+}
+
+.btn-warning{
+  background-color:;
+  color:;
+}
+
+.btn-warning :hover{
+  background-color:;
+}
+
+.btn-danger :hover{
+  background-color:;
+  color:;
+}
+
+.btn-disabled{
+  background-color:;
+  color:;
+  cursor: not-allowed;
+}
+
+.btn-icon{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn-icon .icon{
+  font-size: 20px;
+}
+
+
+    
