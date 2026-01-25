@@ -1,0 +1,225 @@
+/* Efeitos:
+Rotate: rotacionar o elemento.
+Scale: alterar o tamanho do elemento (não é zoom).
+Skew: inclinar o elemento.
+Translate: mover o elemento nos eixos x e y.*/
+
+// Rotate:
+
+<div class = "box"> Rotacione </div>
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color:;
+}
+
+.box{
+  width: 150px;
+  height: 150px;
+  background-color:;
+  color:;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: bold;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+
+.box :hover{
+  transform: rotate(45deg);
+}
+
+
+// Scale:
+
+<div class = "container">
+  <h1> Exemplo do Efeito Scale </h1>
+  <button id = "scaleButton"> Clique para aumentar </button>
+</div>
+<script>
+  const button = document.getElementById('scaleButton');
+  button.addEventListener('click', function(){
+    button.classList.toggle('scale');
+  });
+  </script>
+
+.container{
+  text-align: center;
+  background-color:;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color:;
+  color:;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+button :hover{
+  background-color:;
+}
+
+.scale{
+  transform: scale(1.5);
+}
+
+
+// Skew:
+
+<div class = "container">
+  <h1> Exemplo do Efeito Skew </h1>
+  <button id = "skewButton"> Clique para distorcer </button>
+</div>
+<script>
+  const button = document.getElementById('skewButton');
+  button.addEventListener('click', function(){
+    button.classList.toggle('skew');
+  });
+  </script>
+
+body{
+  font-family:;
+  margin: 0;
+  padding: 20px;
+  background-color:;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  text-align: center;
+  background-color:;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px color;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color:;
+  color:;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+button :hover{
+  background-color:;
+}
+
+.skew{
+  transform: skew(20deg);
+}
+
+
+// Translate:
+
+<div class = "container">
+  <h1> Exemplo de Efeito Translate </h1>
+  <button id = "translateButton"> Clique para mover </button>
+</div>
+<script>
+  const button = document.getElementById('translateButton');
+  button.addEventListener('click', function ()) {
+    button.classList.toggle('translate');
+  });
+</script>
+
+body{
+  font-family:;
+  margin:0;
+  padding: 20px;
+  background-color:;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  text-align: center;
+  background-color:;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color:;
+  color:;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+button :hover{
+  background-color:;
+}
+
+.translate{
+  transform: translateX(100px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
