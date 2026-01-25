@@ -1,19 +1,183 @@
 /*Input: entrada de dados; serve para criar vários tipos de campos onde os usuários podem inserir informações.
 Textarea: entrada de dados; usado para criar campos de entrada de texto multilinha.
-Combobox:
-FieldSet:
+Combobox: entrada de dados; combina caixa de texto com lista de oopções. Tag <select> para criação do combobox, e dentro dela a tag <option> para listar opções.
+FieldSet: agrupa vários elementos de um formulário em uma seção com borda ao redor, ajudando a organizar as informações. Tag <fieldset>, e para adicionar título ou legenda, usa-se <legend>.
 Label: define rótulos para elementos input. for: o atributo conecta o rótulo ao elemento input correspondente.
-Hidden: Exemplo de formulário: */
+Hidden: Exemplo de formulário1: */
 
-<form>
-  <label for = "nome"> Nome: </label>  
-  <input type = "text" id = "nome" name = "nome" placeholder "Digite seu nome">
+<body>
+  <h1>Formulário de Contato</h1>
+  <form>
+    <label for = "nome"> Nome: </label>  
+    <input type = "text" id = "nome" name = "nome" placeholder "Digite seu nome">
 
-  <label for = "email"> Email: </label>
-  <input type = "email" id = "email placeholder = "Digite seu email">
+    <label for = "email"> Email: </label>
+    <input type = "email" id = "email placeholder = "Digite seu email">
 
-  <label for = "mensagem"> Mensagem: </label>
-  <textarea id = "mensagem" name = "mensagem" rows = "4" placeholder = "Digite sua mensagem"></textarea>
+    <label for = "mensagem"> Mensagem: </label>
+    <textarea id = "mensagem" name = "mensagem" rows = "4" placeholder = "Digite sua mensagem"></textarea> //Rows é o número de linhas.
 
-  <button type = "submit"> Enviar </button>
-</form>
+    <button type = "submit"> Enviar </button>
+  </form>
+</body>
+
+body {
+  font-family:;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:;
+}
+
+h1{
+  color:;
+  margin-top: 55px;
+}
+
+form{
+  background-color:;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 0 0 10px color;
+  width: 100%;
+  margin-top: 20px;
+}
+
+label{
+  display: block;
+  margin-bottom: 8px;;
+  color:;
+}
+
+input[type = "text"], input [type = "email"], textarea{
+  width: 100%;
+  padding: 12px; 
+  margin-bottom: 20px;
+  border: 1px solid color;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+buttom{
+  background-color:;
+  color:;
+  padding: 10 px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color:;
+}
+
+//Exemplo de formulário II:
+
+<fieldset>
+  <legend> Informações pessoais </legend>
+
+  <label for = "nome"> Nome: </label>
+  <input type = "text id = "nome" name "nome">
+
+  <label for = "pais"> País: </label>
+  <select id = "pais" name = "pais">
+    <option value = "brasil"> Brasil </option>
+    <option value = "argentina"> Argentina </option>
+    <option value = "chile"> Chile </option>
+  </select>
+</fieldset>
+
+body{
+  font-family:;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:;
+}
+
+fieldset{
+  border: 2px solid color;
+  border-radius: 5px;
+  padding: 22px;
+  background-color:;
+  box-shadow:
+}
+
+legend{
+  font-weight: bold;
+  color:;
+}
+
+label{
+  display: block;
+  margin-bottom: 12px;
+  color:;
+}
+
+input[type = "text"], select{
+  width: 100%;
+  padding: 7px;
+  margin-box: 25px;
+  border: 1px solid color;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
