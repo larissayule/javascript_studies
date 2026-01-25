@@ -11,7 +11,7 @@ Hidden: Tag não visível ao usuário, usado para enviar informações que o usu
     <label for = "nome"> Nome: </label>  
     <input type = "text" id = "nome" name = "nome" placeholder "Digite seu nome">
 
-    <label for = "email"> Email: </label>
+    <label for = "email"> Email: </label> // Valida o campo email automaticamente.
     <input type = "email" id = "email placeholder = "Digite seu email">
 
     <label for = "mensagem"> Mensagem: </label>
