@@ -1,1 +1,2 @@
-/* O link de referência do Bootstrap precisa vir antes do link do CSS no HTML. */
+/* O link de referência do CSS do Bootstrap precisa vir antes do link do CSS geral no HTML. O link de referência do JS
+do Bootstrap deve ser posicionado ao final do body. */
