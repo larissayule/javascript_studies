@@ -57,3 +57,56 @@ O h1 é título principal, e o header é a parte superior da página. /<h1>
 
 /<body>
 /<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+<title>Página da avaliação</title>
+<style> 
+    body{
+        background-color:blanchedalmond;
+        font-family: 'Courier New', Courier, monospace; 
+        color: darkmagenta;
+    }
+    h1{
+        color:darkred;
+    }
+         </style>
+</head>
+
+<body>
+
+    <header>
+    <h1>É sem tema</h1>
+    </header>
+
+    <main>
+    <p> Não temos tema, então o tema é o Mussum: Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mim que vai caçá sua turmis! 
+    Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Ainda é segunda-feris e já tô sem paciêncis! Leite de capivaris, 
+    leite de mula manquis sem cabeça.</p>
+
+    <p> <a href="https://mussumipsum.com/" target="_blank">Nome do link</a>Bota 1 metro de cachacis aí pra viagem! Aenean aliquam molestie leo, vitae iaculis nisl. 
+    Quem num gosta di mim que vai caçá sua turmis! Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!</p>
+    
+    <h2>A ordenada</h2>
+    <ol>
+    <li>Organizadis</li>
+    <li>Aprovadis</li>
+    <li>Programadis</li>
+    </ol>
+
+    <h3>A desordenada</h3>
+    <ul>
+    <li>Desorganizadis</li>
+    <li>Reprovadis</li>
+    <li>Desprogramadis</li>
+    </ul>
+
+    </main>
+
+    <footer>Tem não</footer>
+
+</body>
+</html>
